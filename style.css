@@ -16,8 +16,12 @@ img{
     max-height:500px;
     width: auto;
     height: auto;
+}
+
+img:hover{
     
 }
+
 .main{
     height: 100%;
     width: 100%;
@@ -39,9 +43,13 @@ img{
 }
 
 .main__title{
+    text-decoration: none;
     color: white;
+    font-size: x-large;
     padding-top: 15px;
     padding-bottom: 15px;
+    display: block;
+    width: 200px;
 }
 
 .description{
@@ -52,21 +60,21 @@ img{
     /* padding-top: 20px; */
 }
 
+.details{
+    padding: 20px 0;
+    display: inline-flex;    
+}
+
 .time__details{
     color: hsl(217, 19%, 55%);
-    padding: 3px 0 0 2px ;
+    padding: 3px 0 0 4px ;
 }
 
 .price__details{
     font-size: 15px;
     color: hsl(178, 100%, 50%);
     font-weight: bold;
-    padding: 2px 110px 0 5px;    
-}
-
-.details{
-    padding: 20px 0;
-    display: inline-flex;    
+    padding: 2px 110px 0 7px;    
 }
 
 .authorship{
@@ -82,10 +90,6 @@ img{
     color: hsl(217, 19%, 55%);
 }
 
-strong{
-    color: hsl(178, 100%, 50%);
-}
-
 #people{
     border:1px solid white ;
     border-radius: 50%;
@@ -93,4 +97,14 @@ strong{
     max-height:30px;
     width: auto;
     height: auto;
+}
+
+.name{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: hsl(178, 100%, 50%);
+    transition: all 0.2s ease
 }
