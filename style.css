@@ -3,18 +3,15 @@
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-   
-    
 }
 
 body{
     background-color: hsl(217, 54%, 11%);
     font-family: "Outifit", sans-serif;
-    
 }
 
 img{
-    border-radius: 10px;
+    border-radius: 7px;
     max-width:300px;
     max-height:500px;
     width: auto;
@@ -33,12 +30,12 @@ img{
 
 .main__wrapper{
 
-    padding: 24px;
+    padding: 20px;
     background-color: hsl(216, 50%, 16%);
-    border-radius: 10px;
+    border-radius: 15px;
     justify-content: center;
-    height: 590px;
-    width: 350px;
+    height: 570px;
+    width: 340px;
 }
 
 .main__title{
@@ -57,32 +54,32 @@ img{
 
 .time__details{
     color: hsl(217, 19%, 55%);
-    padding-left: 70px;
-   
-
+    padding: 3px 0 0 2px ;
 }
 
 .price__details{
     font-size: 15px;
     color: hsl(178, 100%, 50%);
     font-weight: bold;
-    padding-right: 50px;    
-
-    
+    padding: 2px 110px 0 5px;    
 }
 
 .details{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    /* text-align: end; */
-    display: inline-flex;
-    
+    padding: 20px 0;
+    display: inline-flex;    
 }
 
 .authorship{
-    padding-top: 10px;
+    display: inline-flex;
+    padding-top: 15px;
+    border-top: 1px solid hsl(217, 21%, 39%);
+    width: 100%;
+
+}
+
+.authorship__details{
+    padding: 10px 15px;
     color: hsl(217, 19%, 55%);
-    border-top: 1px solid hsl(217, 19%, 55%);
 }
 
 strong{
@@ -92,9 +89,8 @@ strong{
 #people{
     border:1px solid white ;
     border-radius: 50%;
-    /* margin-top: 40px; */
     max-width:30px;
-    max-height:500px;
+    max-height:30px;
     width: auto;
     height: auto;
 }
